@@ -109,7 +109,7 @@ st.write("")
 # Display the image centered with fixed size
 try:
     # Load the image
-    image = Image.open("images/5.png")
+    image = Image.open("images/image1.png")
     
     # Center the image using columns
     col1, col2, col3 = st.columns([1, 2, 1])
@@ -126,3 +126,4 @@ except Exception as e:
 # Add spacing
 st.write("")
 st.write("")
+
